@@ -1,4 +1,3 @@
-#!/usr/bin/env python3.7
 import requests  
 from lxml import html,etree
 import urlparse  
