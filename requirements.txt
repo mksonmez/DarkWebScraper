@@ -1,3 +1,4 @@
+mechanicalsoup
 requests  
 lxml
 urlparse  
