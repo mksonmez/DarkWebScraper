@@ -2,7 +2,7 @@ import requests
 #import pandas as pd
 from bs4 import BeautifulSoup
 
-page = requests.get('https://www.budsgunshop.com/')
+page = requests.get('URL')
 soup = BeautifulSoup(page.content, 'html.parser')
 
 #ambien = soup.find(id='footer')
