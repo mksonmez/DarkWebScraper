@@ -70,12 +70,6 @@ def service():
         print(C + "[>] Tor Service is Running..."  + W + '\n')
 
 
-
-def scrap():
-    r = session.get("http://icanhazip.com").text
-    print(R + '[+]' + G  + ' Connected to Tor...')
-    print(R + '[+]' + G  + ' Your Tor IP -> {}'.format(r))
-
 def main():
     """
     Presents options for scraping from single URL or file type
@@ -99,7 +93,6 @@ def main():
 try:
     banner()
     service()
-    scrap()
     main()
     
 except KeyboardInterrupt:
