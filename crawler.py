@@ -39,8 +39,8 @@ class Pull_Lists:
 
         writefile.close()
 
-crawler = Pull_Links("Links",'https://www.budsgunshop.com/')
-crawler2 = Pull_Lists("Lists",'https://www.budsgunshop.com/')
+crawler = Pull_Links("Links",'URL')
+crawler2 = Pull_Lists("Lists",'URL')
 
 crawler.write_file()
 crawler2.write_file()
